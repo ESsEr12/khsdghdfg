@@ -1,0 +1,86 @@
+.mainButton{
+    padding: 15px 30px;
+    background-color: peru;
+    font-size: 2em;
+}
+.todoElement{
+    padding: 15px 20px;
+    font-size: 50px;
+    background-color: rgba(143, 125, 125, 0.686);
+    border: rgb(97, 55, 55);
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    position: relative
+
+}
+#mainDiv{
+    font-size: 24px;
+}
+.buttonDel {
+    font-size: 40px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgb(240, 63, 63);
+    padding: 10px 15px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    transition: 300ms;
+}
+.buttonDel:hover{
+    cursor: pointer ;
+    background-color: rgb(0, 255, 179);
+    transition: 300ms;
+}
+.buttonDel:active{
+    cursor: unset;
+    background-color: rgb(243, 63, 63);
+    transition: 100ms;
+}
+.buttonis{
+    font-size: 40px;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    background-color: chartreuse;
+    padding: 10px 15px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    transition: 300ms;
+}
+.buttonis:hover{
+    cursor: pointer ;
+    background-color: rgb(11, 65, 16);
+    transition: 300ms;
+}
+.buttonis:active{
+    cursor: unset;
+    background-color: chartreuse;
+    transition: 100ms;
+}
+.todoEement__Text{
+    margin: 0;
+}
+.icbuttonis{
+    font-size: 40px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background-color: chartreuse;
+    padding: 10px 15px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    transition: 300ms;
+}
+.icbuttonis:hover{
+    cursor: pointer ;
+    background-color: rgb(11, 65, 16);
+    transition: 300ms;
+}
+.icbuttonis:active{
+    cursor: unset;
+    background-color: chartreuse;
+    transition: 100ms;
+}
+
